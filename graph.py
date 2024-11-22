@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the data from CSV file
-file_path = 'meeting_location.csv'
+file_path = 'meeting_location.csv'  #modify according to your file path
 data = pd.read_csv(file_path)
 
 # Extract longitude and latitude from the csv
